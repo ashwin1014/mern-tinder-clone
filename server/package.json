@@ -8,7 +8,7 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js"
   },
   "devDependencies": {
     "chalk": "^4.1.1",
@@ -17,6 +17,7 @@
     "nodemon": "^2.0.7"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.12.15"
   }
