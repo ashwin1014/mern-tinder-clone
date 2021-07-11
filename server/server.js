@@ -7,7 +7,7 @@ import dotEnv from 'dotenv';
 import HttpError from './models/http-error';
 import Cards from './models/dbCards-schema';
 
-const MONGO_URL = `mongodb+srv://${process.env.MONGO_PASS}:1014ashwin@cluster0.5ui3g.mongodb.net/tinderDB?retryWrites=true&w=majority`;
+const MONGO_URL = `mongodb+srv://ashwin1014:${process.env.MONGO_KEY}@cluster0.5ui3g.mongodb.net/tinderDB?retryWrites=true&w=majority`;
 
 // App Config
 dotEnv.config();
